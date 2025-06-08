@@ -53,9 +53,6 @@ export const TopicCard = ({ topic, index, onClick }) => {
       
       {/* Main Card */}
       <div className={`relative bg-gradient-to-br ${topic.theme.primary} p-8 rounded-3xl border-4 border-white shadow-xl transform transition-transform duration-300 group-hover:translate-x-1 group-hover:translate-y-1`}>
-        {/* Sparkle Effect */}
-        <div className="absolute top-2 right-2 text-2xl animate-spin opacity-70">✨</div>
-        <div className="absolute bottom-2 left-2 text-xl animate-pulse opacity-50">⭐</div>
         
         {/* Icon with topic-specific animation */}
         <div className={`text-6xl mb-4 text-center ${topic.id === 'anime' ? 'animate-bounce' : topic.id === 'videogames' ? 'animate-pulse' : 'animate-bounce'}`}>

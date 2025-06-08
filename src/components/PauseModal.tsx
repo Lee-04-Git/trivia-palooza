@@ -12,7 +12,7 @@ export const PauseModal: React.FC<PauseModalProps> = ({ onResume, onExit }) => {
       <div className="bg-white rounded-3xl p-8 max-w-md w-full mx-4 transform animate-scale-in shadow-2xl border-4 border-gray-200">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="text-6xl mb-4 animate-pulse">⏸️</div>
+          <div className="text-6xl mb-4 animate-pulse"></div>
           <h2 className="text-3xl font-bold mb-2 text-gray-800">Game Paused</h2>
           <p className="text-gray-600 text-lg">Take a break! Your progress is saved.</p>
         </div>

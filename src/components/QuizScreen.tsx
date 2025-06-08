@@ -98,7 +98,7 @@ export const QuizScreen: React.FC<QuizScreenProps> = ({ topic, onComplete, onPau
     return (
       <div className={`min-h-screen ${topic.theme.background} flex items-center justify-center`}>
         <div className="text-center">
-          <div className="text-6xl mb-4">😓</div>
+          <div className="text-6xl mb-4"></div>
           <p className="text-2xl font-bold text-gray-700">Failed to load questions</p>
         </div>
       </div>
